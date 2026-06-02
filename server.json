@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "ai.bittlebits/bittlebits",
+  "title": "BittleBits GEO Assistant",
+  "description": "GEO (Generative Engine Optimization) scores and content-rewrite suggestions for any page, as MCP tools.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/bittlebitsai/bittlebits-plugin",
+    "source": "github"
+  },
+  "websiteUrl": "https://bittlebits.ai/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bittlebits.ai/mcp"
+    }
+  ]
+}

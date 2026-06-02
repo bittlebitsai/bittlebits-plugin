@@ -13,7 +13,7 @@
     {
       "name": "bittlebits-mcp-plugin",
       "source": "./",
-      "description": "Connect Claude, Cursor, and any MCP client to BittleBits GEO scores and rewrite suggestions over a remote OAuth/SSE MCP server.",
+      "description": "Connect Claude, Cursor, and any MCP client to BittleBits GEO scores and rewrite suggestions over a remote OAuth MCP server (Streamable HTTP).",
       "homepage": "https://bittlebits.ai/docs/mcp",
       "license": "MIT",
       "keywords": [

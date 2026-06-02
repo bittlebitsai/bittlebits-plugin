@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "bittlebits": {
-      "type": "sse",
+      "type": "http",
       "url": "https://bittlebits.ai/mcp"
     }
   }

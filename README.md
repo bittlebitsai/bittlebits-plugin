@@ -2,7 +2,7 @@
 
 Connect **Claude**, **Cursor**, and any MCP-compatible AI agent to [BittleBits](https://bittlebits.ai) — bringing your **GEO (Generative Engine Optimization) scores** and **AI-content rewrite suggestions** directly into your agent as tools.
 
-This repository is the installable plugin wrapper. The BittleBits MCP server itself is hosted and remote — it speaks **HTTP/SSE** and authenticates with **OAuth 2.0**, so there is no token to configure and nothing to run locally. Point your client at the server and sign in through your browser.
+This repository is the installable plugin wrapper. The BittleBits MCP server itself is hosted and remote — it speaks **Streamable HTTP** and authenticates with **OAuth 2.0**, so there is no token to configure and nothing to run locally. Point your client at the server and sign in through your browser.
 
 ## What you get
 
@@ -37,7 +37,7 @@ Add to your `mcp.json`:
 {
   "mcpServers": {
     "bittlebits": {
-      "type": "sse",
+      "type": "http",
       "url": "https://bittlebits.ai/mcp"
     }
   }
