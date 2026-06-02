@@ -1,0 +1,31 @@
+{
+  "name": "bittlebits",
+  "owner": {
+    "name": "BittleBits.ai",
+    "email": "support@bittlebits.ai",
+    "url": "https://bittlebits.ai"
+  },
+  "metadata": {
+    "description": "BittleBits MCP plugins — GEO scoring and AI-content rewrite tools for Claude, Cursor, and any MCP client.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bittlebits-mcp-plugin",
+      "source": "./",
+      "description": "Connect Claude, Cursor, and any MCP client to BittleBits GEO scores and rewrite suggestions over a remote OAuth/SSE MCP server.",
+      "homepage": "https://bittlebits.ai/docs/mcp",
+      "license": "MIT",
+      "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "claude",
+        "cursor",
+        "geo",
+        "seo",
+        "ai-seo",
+        "bittlebits"
+      ]
+    }
+  ]
+}

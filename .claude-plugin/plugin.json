@@ -1,0 +1,24 @@
+{
+  "name": "bittlebits-mcp-plugin",
+  "version": "1.0.0",
+  "description": "BittleBits MCP plugin — connect Claude, Cursor, and any MCP client to BittleBits GEO scores and rewrite suggestions.",
+  "author": {
+    "name": "BittleBits.ai",
+    "email": "support@bittlebits.ai",
+    "url": "https://bittlebits.ai"
+  },
+  "homepage": "https://bittlebits.ai/docs/mcp",
+  "repository": "https://github.com/bittlebitsai/bittlebits-mcp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "geo",
+    "seo",
+    "ai-seo",
+    "generative-engine-optimization",
+    "bittlebits"
+  ]
+}
